@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include husainia *.css
+recursive-include husainia *.csv
+recursive-include husainia *.html
+recursive-include husainia *.ico
+recursive-include husainia *.js
+recursive-include husainia *.json
+recursive-include husainia *.md
+recursive-include husainia *.png
+recursive-include husainia *.py
+recursive-include husainia *.svg
+recursive-include husainia *.txt
+recursive-exclude husainia *.pyc
